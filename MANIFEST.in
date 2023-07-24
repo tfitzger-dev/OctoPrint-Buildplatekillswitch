@@ -1,0 +1,4 @@
+include README.md
+recursive-include octoprint_buildplatekillswitch/templates *
+recursive-include octoprint_buildplatekillswitch/translations *
+recursive-include octoprint_buildplatekillswitch/static *

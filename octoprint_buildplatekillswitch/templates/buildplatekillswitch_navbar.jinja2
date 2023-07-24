@@ -1,0 +1,7 @@
+<div>
+    <p class="nav navbar-text" visible="true" data-bind="css: {'navbar-text-error': !killSwitchActive()}">
+        Buildplate
+        <span data-bind="if: killSwitchActive()">Detected</span>
+        <span data-bind="ifnot: killSwitchActive()">Missing</span>
+    </p>
+</div>
